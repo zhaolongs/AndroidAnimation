@@ -10,7 +10,9 @@ import android.view.ViewTreeObserver;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+/**
+ * 帧动画  java 代码 方式实现
+ */
 public class FrameJavaAnimationActivity extends AppCompatActivity {
 	
 	@Override

@@ -14,6 +14,10 @@ import android.view.View;
 import android.view.ViewTreeObserver;
 import android.widget.ImageView;
 
+/**
+ * 帧动画  xml 方式实现
+ * 各种开始动画效果的方式
+ */
 public class FrameAnimationActivity extends AppCompatActivity {
 	
 	@Override

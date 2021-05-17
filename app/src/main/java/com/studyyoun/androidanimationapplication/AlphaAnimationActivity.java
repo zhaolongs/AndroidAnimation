@@ -14,6 +14,11 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+/**
+ * 透明渐变动画效果
+ * 1 补间动画
+ * 2 属性动画
+ */
 public class AlphaAnimationActivity extends AppCompatActivity {
 	
 	private ImageView mImageView;
