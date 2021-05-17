@@ -17,6 +17,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 		
 		Button lFrameButton = findViewById(R.id.frame_button);
 		lFrameButton.setOnClickListener(this);
+		Button lJavaFrameButton = findViewById(R.id.frame_java_button);
+		lJavaFrameButton.setOnClickListener(this);
+		
+		Button lAlphaButton = findViewById(R.id.alpha_button);
+		lAlphaButton.setOnClickListener(this);
 	}
 	
 	
@@ -26,6 +31,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 		switch (v.getId()) {
 			case R.id.frame_button:
 				lIntent = new Intent(this, FrameAnimationActivity.class);
+				break;
+			case R.id.frame_java_button:
+				lIntent = new Intent(this, FrameJavaAnimationActivity.class);
+				break;
+			case R.id.alpha_button:
+				lIntent = new Intent(this, AlphaAnimationActivity.class);
 				break;
 		}
 		if (lIntent != null) {

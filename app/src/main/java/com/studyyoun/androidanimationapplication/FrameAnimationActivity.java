@@ -24,6 +24,12 @@ public class FrameAnimationActivity extends AppCompatActivity {
 		//start1();
 		//start2();
 		//start3();
+		
+		ImageView lImageView = findViewById(R.id.imageview);
+		//设置图片
+		lImageView.setImageResource(R.drawable.loading);
+		//动
+		mAnimationDrawable = (AnimationDrawable) lImageView.getDrawable();
 	}
 	
 	public void start1() {

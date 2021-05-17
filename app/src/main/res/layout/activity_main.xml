@@ -12,10 +12,17 @@
         android:id="@+id/frame_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="帧动画"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="帧动画-xml方式" />
+    <Button
+        android:id="@+id/frame_java_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="帧动画-Java代码方式" />
+    <Button
+        android:id="@+id/alpha_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="透明动画" />
+
 
 </LinearLayout>

@@ -2,26 +2,162 @@
 <animation-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:drawable="@mipmap/ani_1"
-        android:duration="800" />
+        android:duration="200" />
     <item
         android:drawable="@mipmap/ani_2"
-        android:duration="800" />
+        android:duration="200" />
     <item
         android:drawable="@mipmap/ani_3"
-        android:duration="800" />
+        android:duration="200" />
     <item
         android:drawable="@mipmap/ani_4"
-        android:duration="800" />
+        android:duration="200" />
     <item
         android:drawable="@mipmap/ani_5"
-        android:duration="800" />
+        android:duration="200" />
     <item
         android:drawable="@mipmap/ani_6"
-        android:duration="800" />
+        android:duration="200" />
     <item
         android:drawable="@mipmap/ani_7"
-        android:duration="800" />
+        android:duration="200" />
     <item
         android:drawable="@mipmap/ani_8"
-        android:duration="800" />
+        android:duration="200" />
+
+    <item
+        android:drawable="@mipmap/ani_9"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_10"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_11"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_12"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_13"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_14"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_15"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_16"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_17"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_18"
+        android:duration="200" />
+
+    <item
+        android:drawable="@mipmap/ani_19"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_20"
+        android:duration="200" />
+
+    <item
+        android:drawable="@mipmap/ani_21"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_22"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_23"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_24"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_25"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_26"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_27"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_28"
+        android:duration="200" />
+
+    <item
+        android:drawable="@mipmap/ani_29"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_30"
+        android:duration="200" />
+
+    <item
+        android:drawable="@mipmap/ani_31"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_32"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_33"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_34"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_35"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_36"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_37"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_38"
+        android:duration="200" />
+
+    <item
+        android:drawable="@mipmap/ani_39"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_40"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_41"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_42"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_43"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_44"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_45"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_46"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_47"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_48"
+        android:duration="200" />
+
+    <item
+        android:drawable="@mipmap/ani_49"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_50"
+        android:duration="200" />
+    <item
+        android:drawable="@mipmap/ani_51"
+        android:duration="200" />
 </animation-list>
