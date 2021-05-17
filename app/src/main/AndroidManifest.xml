@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidAnimationApplication">
+        <activity
+            android:name=".FrameAnimationActivity"
+            android:label="@string/title_activity_frame_animation"
+            android:theme="@style/Theme.AndroidAnimationApplication.NoActionBar"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

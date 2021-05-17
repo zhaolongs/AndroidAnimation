@@ -1,25 +1,37 @@
 package com.studyyoun.androidanimationapplication;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.graphics.drawable.AnimationDrawable;
-import android.os.Bundle;
-import android.widget.ImageView;
-
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+	
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		ImageView lImageView = findViewById(R.id.imageview);
-		//设置图片
-		lImageView.setImageResource(R.drawable.loading);
-		//动
-		AnimationDrawable lAnimationDrawable = (AnimationDrawable) lImageView.getDrawable();
-		
-		lAnimationDrawable.start();
+		Button lFrameButton = findViewById(R.id.frame_button);
+		lFrameButton.setOnClickListener(this);
+	}
+	
+	
+	@Override
+	public void onClick(View v) {
+		Intent lIntent = null;
+		switch (v.getId()) {
+			case R.id.frame_button:
+				lIntent = new Intent(this, FrameAnimationActivity.class);
+				break;
+		}
+		if (lIntent != null) {
+			startActivity(lIntent);
+		}
 		
 	}
+	
 }
