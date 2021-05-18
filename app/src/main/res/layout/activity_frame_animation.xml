@@ -8,15 +8,42 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/bt_xml_start"
+        android:id="@+id/bt_bujian_xml_start"
         android:layout_width="wrap_content"
-        android:text="xml 开始"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="补间动画-Xml" />
+
     <Button
-        android:id="@+id/bt_java_start"
+        android:id="@+id/bt_bujian_java_start"
         android:layout_width="wrap_content"
-        android:text="java 开始"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="补间动画-Java" />
+
+    <Button
+        android:id="@+id/bt_value_xml_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="属性动画-ValueAnimator - Xml" />
+
+    <Button
+        android:id="@+id/bt_value_java_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="属性动画-ValueAnimator-Java" />
+
+    <Button
+        android:id="@+id/bt_obj_xml_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="属性动画-ObjectAnimator - Xml" />
+
+    <Button
+        android:id="@+id/bt_obj_java_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="属性动画-ObjectAnimator-Java" />
 
     <ImageView
         android:id="@+id/imageview"
