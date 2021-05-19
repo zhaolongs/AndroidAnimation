@@ -23,6 +23,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="透明动画" />
+    <Button
+        android:id="@+id/translate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="平移动画" />
 
 
 </LinearLayout>

@@ -22,6 +22,7 @@
         </activity>
         <activity android:name=".FrameJavaAnimationActivity" />
         <activity android:name=".AlphaAnimationActivity" />
+        <activity android:name=".TranslateAnimationActivity" />
     </application>
 
 </manifest>

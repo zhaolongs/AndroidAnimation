@@ -22,6 +22,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 		
 		Button lAlphaButton = findViewById(R.id.alpha_button);
 		lAlphaButton.setOnClickListener(this);
+		
+		Button lTranslateButton = findViewById(R.id.translate_button);
+		lTranslateButton.setOnClickListener(this);
+		
 	}
 	
 	
@@ -38,6 +42,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 			case R.id.alpha_button:
 				lIntent = new Intent(this, AlphaAnimationActivity.class);
 				break;
+			case R.id.translate_button:
+				lIntent = new Intent(this, TranslateAnimationActivity.class);
+				break;
+			
 		}
 		if (lIntent != null) {
 			startActivity(lIntent);
