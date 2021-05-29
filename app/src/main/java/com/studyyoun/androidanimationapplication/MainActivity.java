@@ -26,6 +26,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 		Button lTranslateButton = findViewById(R.id.translate_button);
 		lTranslateButton.setOnClickListener(this);
 		
+		Button lScaleButton = findViewById(R.id.scale_button);
+		lScaleButton.setOnClickListener(this);
+		
+		Button lRoateButton = findViewById(R.id.rote_button);
+		lRoateButton.setOnClickListener(this);
+		
+		
+		
 	}
 	
 	
@@ -44,6 +52,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 				break;
 			case R.id.translate_button:
 				lIntent = new Intent(this, TranslateAnimationActivity.class);
+				break;
+			case R.id.scale_button:
+				lIntent = new Intent(this, ScaleAnimationActivity.class);
+				break;
+			case R.id.rote_button:
+				lIntent = new Intent(this, RoateAnimationActivity.class);
 				break;
 			
 		}

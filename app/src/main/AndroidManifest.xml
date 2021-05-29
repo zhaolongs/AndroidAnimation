@@ -23,6 +23,9 @@
         <activity android:name=".FrameJavaAnimationActivity" />
         <activity android:name=".AlphaAnimationActivity" />
         <activity android:name=".TranslateAnimationActivity" />
+        <activity android:name=".ScaleAnimationActivity" />
+        <activity android:name=".TestAnimationActivity" />
+        <activity android:name=".RoateAnimationActivity" />
     </application>
 
 </manifest>
