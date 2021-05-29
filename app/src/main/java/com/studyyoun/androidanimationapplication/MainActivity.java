@@ -33,6 +33,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 		lRoateButton.setOnClickListener(this);
 		
 		
+		Button lTestButton = findViewById(R.id.test_button);
+		lTestButton.setOnClickListener(this);
+		
+		Button lObjButton = findViewById(R.id.obj_button);
+		lObjButton.setOnClickListener(this);
+		
+		
+		Button lValueButton = findViewById(R.id.value_button);
+		lValueButton.setOnClickListener(this);
+		
+		
 		
 	}
 	
@@ -58,6 +69,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 				break;
 			case R.id.rote_button:
 				lIntent = new Intent(this, RoateAnimationActivity.class);
+				break;
+			case R.id.obj_button:
+				lIntent = new Intent(this, ObjectAnimatorActivity.class);
+				break;
+			case R.id.value_button:
+				lIntent = new Intent(this, ValueAnimatorActivity.class);
+				break;
+			
+			
+			case R.id.test_button:
+				lIntent = new Intent(this, TestAnimationActivity.class);
 				break;
 			
 		}
